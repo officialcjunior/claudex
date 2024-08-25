@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Claudex",
+    "version": "1.0",
+    "description": "Firefox extension to export chats with Anthropic's Claude",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://claude.ai/*"
+    ],
+    "browser_action": {
+      "default_title": "Export Conversation",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
