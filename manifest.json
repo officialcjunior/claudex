@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Claudex",
     "version": "1.0",
-    "description": "Firefox extension to export chats with Anthropic's Claude",
+    "description": "Firefox extension to export chats with Anthropic's Claude in Markdown",
     "permissions": [
         "tabs",
         "activeTab",
@@ -15,5 +15,9 @@
     "background": {
       "scripts": ["background.js"],
       "persistent": false
+    },
+    "icons": {
+      "48": "icons/claudex.png",
+      "96": "icons/claudex.png"
     }
   }
